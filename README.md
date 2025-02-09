@@ -159,12 +159,3 @@ Non members cannot list messages
 ![image](https://github.com/user-attachments/assets/9d4abc9c-27e0-447a-9454-b279a412fd31)
 
 ---
-
-### Contributing
-
-Feel free to contribute to this project by submitting pull requests!
-
-### License
-
-This project is licensed under the MIT License.
-
