@@ -71,7 +71,7 @@ This project follows a relational structure with the following tables:
 
 ### UML Diagram
 
-
+![image](https://github.com/user-attachments/assets/63b3591c-08d2-4d2b-b102-a159f8383847)
 
 ## Installation
 
