@@ -2,7 +2,7 @@
 
 ## Overview
 
-ChatApp is a simple chat application built using PHP 8.4.3, Slim Framework, and SQLite as the database. It follows Clean Architecture and best practices to ensure scalability and maintainability.
+ChatApp is a simple chat application built using PHP 8.4.3, Slim Framework, and SQLite as the database. It follows Clean Architecture and repository pattern to ensure scalability and maintainability.
 
 ## Technologies Used
 
