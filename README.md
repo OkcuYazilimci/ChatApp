@@ -29,6 +29,7 @@ ChatApp/
 │── bootstrap/
 │── vendor/
 │── public/
+|── .env
 │── README.md
 │── composer.json
 │── phpunit.xml
