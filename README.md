@@ -107,6 +107,7 @@ Execute the test suite using PHPUnit:
 ```sh
 vendor/bin/phpunit --testdox
 ```
+![image](https://github.com/user-attachments/assets/257ba0cd-1019-4fa7-ba27-a4aef2050c0a)
 
 ## API Endpoints
 
