@@ -75,7 +75,9 @@ This project follows a relational structure with the following tables:
 ![image](https://github.com/user-attachments/assets/63b3591c-08d2-4d2b-b102-a159f8383847)
 
 ## Installation
-
+NOTE About .env:
+  for best practice we should put sensitive data into .env such as paths and credentials. But, in this project .env did not configured yet the paths are directly written in database.php file.
+  
 1. Clone the repository:
    ```sh
    git clone https://github.com/yourusername/ChatApp.git
@@ -97,7 +99,7 @@ This project follows a relational structure with the following tables:
    ```sh
    php -S localhost:8000 -t public/
    ```
-
+   
 ## Running Tests
 
 Execute the test suite using PHPUnit:
