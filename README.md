@@ -114,6 +114,11 @@ vendor/bin/phpunit --testdox
 | POST   | `/users`      | Create a new user |
 | GET    | `/users/{id}` | Get user details  |
 
+POST /users
+![image](https://github.com/user-attachments/assets/3fc187e5-eaff-4063-8dfd-400e93867535)
+GET /users/{id}
+![image](https://github.com/user-attachments/assets/7bb7ff50-c6b3-4104-8456-ee8a22ac71a9)
+
 ### Group Routes
 
 | Method | Endpoint       | Description            |
@@ -122,12 +127,36 @@ vendor/bin/phpunit --testdox
 | POST   | `/groups/join` | Join an existing group |
 | GET    | `/groups`      | List all groups        |
 
+POST /groups
+![image](https://github.com/user-attachments/assets/9befe0a3-25e1-4339-bbbb-75f80a7d6384)
+
+POST /groups/join
+Creator of group automatically joins the group
+![image](https://github.com/user-attachments/assets/5ed776d3-db71-475d-ac2f-f495b3e391ab)
+Other users can join freely
+![image](https://github.com/user-attachments/assets/e1a6cc04-e34f-49f6-8b33-fc086b173e14)
+
+GET /groups
+![image](https://github.com/user-attachments/assets/5c3e01e3-1820-4b0f-b7e2-5f55fb9f56a8)
+
 ### Message Routes
 
 | Method | Endpoint               | Description               |
 | ------ | ---------------------- | ------------------------- |
 | POST   | `/messages/{group_id}` | Send a message in a group |
 | GET    | `/messages/{group_id}` | Fetch messages in a group |
+
+POST /messages/{group_id}
+members of the group can send message
+![image](https://github.com/user-attachments/assets/fb53f603-30ee-40fa-b892-360c2dfae4b6)
+Non meembers cannot send message to a group
+![image](https://github.com/user-attachments/assets/d8ae446d-91be-42f3-b816-b4b2d7dfdb86)
+
+GET /messages/{group_id}
+Only group members can list messages
+![image](https://github.com/user-attachments/assets/1a6e6be1-bf49-4cb2-995b-36f8da1a7f6f)
+Non members cannot list messages
+![image](https://github.com/user-attachments/assets/9d4abc9c-27e0-447a-9454-b279a412fd31)
 
 ---
 
